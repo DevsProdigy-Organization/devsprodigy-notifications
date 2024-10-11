@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .notification {
+        @apply p-4 font-semibold text-black bg-white rounded-lg shadow-md;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+        /* Posición original */
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(20px);
+        /* Desplazarse hacia abajo */
+    }
+}
+
+/* Clase para animar la salida */
+.slide-out {
+    animation: slideOut 0.4s ease forwards;
+    /* Duración de 0.4s */
+}

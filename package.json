@@ -1,0 +1,31 @@
+{
+  "name": "devsprodigy-notifications",
+  "version": "1.0.2",
+  "main": "dist/devsprodigy-notifications.umd.js",
+  "module": "dist/devsprodigy-notifications.es.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [
+    "notification",
+    "alert",
+    "toast",
+    "web",
+    "library"
+  ],
+  "author": "DevsProdigy",
+  "contributors": [
+    {
+      "name": "Donovan A. Tupiza",
+      "email": "donovan.tupizaayala@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "description": "A simple and lightweight notification library for your web applications.",
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.8"
+  }
+}
