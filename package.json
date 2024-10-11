@@ -1,6 +1,6 @@
 {
   "name": "devsprodigy-notifications",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/devsprodigy-notifications.umd.js",
   "module": "dist/devsprodigy-notifications.es.js",
   "scripts": {
